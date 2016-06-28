@@ -33,11 +33,11 @@ creator:
 5. What does it mean for a class to *inherit* methods and/or variables from its parent class?
 
 6. Consider the following code, where class Refrigerator extends class Appliance, and `getTemperature()` is a method in Refrigertor, but NOT in Appliance:
-``````
-Appliance myAppliance = new Refrigerator();
-double temperature = myAppliance.getTemperature();
-```
-Why will this call to `getTemperature()` cause an error? How will *casting* help solve this issue?
+  ```
+  Appliance myAppliance = new Refrigerator();
+  double temperature = myAppliance.getTemperature();
+  ```
+  Why will this call to `getTemperature()` cause an error? How will *casting* help solve this issue?
 
 7. In a normal class (also called a *concrete* class), do you need to *implement* all of the methods, or can your simply *declare* some? What about in an `abstract` class?
 
